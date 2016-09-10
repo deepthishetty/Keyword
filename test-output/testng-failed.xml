@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="TestFF(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="delta.main.DeltaDriver">
+        <methods>
+          <include name="endFrameWork"/>
+          <include name="endFrameWork"/>
+          <include name="launchApp"/>
+          <include name="launchApp"/>
+          <include name="quitApp"/>
+          <include name="quitApp"/>
+          <include name="initFrameWork"/>
+          <include name="initFrameWork"/>
+          <include name="testScanarios" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- delta.main.DeltaDriver -->
+    </classes>
+  </test> <!-- TestFF(failed) -->
+</suite> <!-- Failed suite [Suite] -->
